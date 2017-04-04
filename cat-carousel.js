@@ -1,3 +1,4 @@
+//console.log("HELLO");
 /*$(function() {
   $(".img").click(function(event) {
     var photoSrc = $(this).find("img").attr("src");
@@ -5,10 +6,10 @@
 });*/
 
 $(function() {
-  $(".img").click(function(event) {
-    event.stopPropagation();
+  $(".thumbnail").click(function(event) {
     var photoSrc = $(this).find("img").attr("src");
-    $(this).append("<div class='big-img-cont'><img src='"+photoSrc+"' /></div>");
+    var bigImage = "<div class='big-img-cont'><img src='"+photoSrc+"' /></div>"
+    $(this).append(bigImage);
   });
 });
 
