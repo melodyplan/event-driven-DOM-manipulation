@@ -1,6 +1,7 @@
 $(function() {
-  $(".jpg").click(function(event) {
-    event.stopPropagation();
-    $("h2").img($(this).img());
-  });
+  $(".img").click(function(event) {
+    var photoSrc = $(this).find("img").attr("src");
+    $(this).append/*Before*/("<a class='thumbnail'><img src='"+photoSrc+"' /></div>");
 });
+
+//not sure if i use .appendBefore to put it on top??
