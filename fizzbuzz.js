@@ -1,5 +1,4 @@
-console.log("Hello")
-function positiveNumber() {
+function howHigh() {
   var fizz
   //is associated with a "<div class="fizz-buzz-item"> and .fizz
   //replaces integers divisible by 3
@@ -9,3 +8,6 @@ function positiveNumber() {
   var fizzbuzz
   //is associated with class fizzbuzz
   //replaces integers disible by 5 and 3
+};
+
+$(howHigh);
