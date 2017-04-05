@@ -11,3 +11,7 @@ function howHigh() {
 };
 
 $(howHigh);
+
+/*I was stuck on this for so long because for some reason I didn't think I
+was supposed to do anything reg JS and I was supposed to just do event listeners
+I want to give this one another try, especially after seeing the solution.*/
